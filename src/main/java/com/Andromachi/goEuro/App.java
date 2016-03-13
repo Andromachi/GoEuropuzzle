@@ -17,10 +17,10 @@ public class App
         String inputCity;
         //There must be exactly one arguement. For cities that have spaces in their names
         //such as "Rio de Janeiro", the spaces are removed
-        if (args.length > 0) {
+        if (args.length == 1) {
             inputCity = args[0].replaceAll("[\\s]","");
         }
-        else throw new IllegalArgumentException("Please provide only one city name enclosed in"+ "\"\""); {
+        else throw new IllegalArgumentException("Please provide only one city name enclosed in "+ "\"\""); {
         }
         try {
             //Calling the api
