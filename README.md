@@ -22,4 +22,7 @@ The following technologies were used:
 - Jackson 2.7 for deserializing the json response
 - Jersey 1.9 for creating a client that requests the data from the Location JSON API
 
+
 **The jar file can be found under releases**
+
+As requested the application can be run from the command line: java -jar GoEuroTest.jar "CITY_NAME"
