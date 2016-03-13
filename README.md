@@ -15,7 +15,7 @@ Jackson is used to consume the data and map the json objects to the desired java
 
 CsvWriter is a class that is called to write the data to a csv file. If the file already exists it is overwriten
 
-The following technologies were used:
+**The following technologies were used:**
 - java 8
 - maven 3
 - Apache commons-lang 2.2
