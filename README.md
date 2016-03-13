@@ -20,7 +20,7 @@ The following technologies were used:
 - maven 3
 - Apache commons-lang 2.2
 - Jackson 2.7 for deserializing the json response
-- Jersey 1.9 for creating a client that requests the data from the Location JSON API
+- Jersey 1.9 for creating a client that fetches the data from the Location JSON API
 
 
 **The jar file can be found under releases**
